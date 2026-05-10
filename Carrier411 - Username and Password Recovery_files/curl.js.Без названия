@@ -1,0 +1,14 @@
+$(document).ready(function(){
+
+	$('#pagecurl').show();
+	
+	// Initialize Page Curl
+	
+	$( '#target' ).fold({
+		side: 		'left',
+		directory:	'images',
+		starting_width: 130,
+		starting_height: 130
+	});
+	
+});
